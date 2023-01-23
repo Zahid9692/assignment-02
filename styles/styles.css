@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* banner styles */
+.banner{
+  background-color: antiquewhite;
+}
+
+/* navbar styles */
+
+nav {
+  margin: 0 288px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 16px 0;
+}
+
+
+.top-links {
+  display: flex;
+
+}
+
+.top-links li {
+  padding: 0 18px;
+  font-weight: 400;
+  font-size: 14px;
+}
