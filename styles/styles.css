@@ -5,7 +5,7 @@
 
 /* banner styles */
 .banner{
-  background-color: antiquewhite;
+  background-color: rgba(255, 144, 14, 0.1)
 }
 
 /* navbar styles */
@@ -44,4 +44,19 @@ a {
   padding: 0 18px;
   font-weight: 400;
   font-size: 14px;
+}
+
+
+/* title styles */
+.title{
+text-align: center;
+margin: 96px 0;
+}
+
+.title-paragraph{
+  padding: 16px 0;
+}
+
+.btn-primary{
+margin: 16px 0;
 }
