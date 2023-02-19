@@ -4,7 +4,7 @@
 }
 
 /* banner styles */
-.banner{
+.banner {
   background-color: rgba(255, 144, 14, 0.1)
 }
 
@@ -48,15 +48,146 @@ a {
 
 
 /* title styles */
-.title{
+
+.title {
+  text-align: center;
+  margin: 96px 0;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.title-paragraph {
+  padding: 32px 0;
+}
+
+.btn-primary {
+  margin-top: 18px;
+  width: 180px;
+  height: 64px;
+  left: 870px;
+  top: 463px;
+  border-style: none;
+  color: aliceblue;
+  font-weight: 500;
+  font-size: 20px;
+  background: #FF900E;
+  border-radius: 8px;
+}
+
+.btn-primary1 {
+  margin-top: 18px;
+  width: 180px;
+  height: 52px;
+  left: 870px;
+  top: 463px;
+  border-style: none;
+  color: aliceblue;
+  font-weight: 500;
+  font-size: 20px;
+  background: #FF900E;
+  border-radius: 8px;
+}
+
+/* banner picture */
+.banner-picture {
+  padding: 0 288px;
+}
+
+
+/* photo grid */
+
+.row1 {
+  display: flex;
+  margin: 16px;
+}
+
+.row2 {
+  display: flex;
+  margin: 16px;
+}
+
+.quick {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 96px 288px;
+}
+
+.quicklist {
+  font-size: 36px;
+  padding: 12px 0;
+}
+
+.text-gray {
+  font-weight: 300;
+  color: rgba(114, 114, 114, 1);
+}
+
+.text-orange {
+  color: rgba(255, 144, 14, 1);
+}
+
+
+.quick-part1 {
+  padding-right: 16px;
+}
+
+.quick-part2 {
+  padding-left: 16px;
+}
+
+/* love & enjoy */
+.cards {
+  margin: 18px;
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.09);
+  border-radius: 8px;
+  padding: 18px;
+}
+
+.title3 {
+  padding: 6px 0;
+}
+
+p {
+  color: rgba(114, 114, 114, 1);
+}
+
+.featuresec{
+  margin: 16px 0;
+}
+
+
+.love1{
+  margin-left: 18px;
+}
+.love2{
+  margin-left: 18px;
+}
+
+
+/* facts */
+
+
+.facts-title{
+  margin: 96px 288px;
+}
+.facts1{
+padding-bottom: 48px;
+}
+.smcards{
+  display: flex;
+justify-content: center;
 text-align: center;
-margin: 96px 0;
+justify-content: space-around;
 }
 
-.title-paragraph{
-  padding: 16px 0;
-}
+.smcards1{
+  border: #FF900E solid 2px;
+  border-radius: 8px;
+  padding: 14px;
 
-.btn-primary{
-margin: 16px 0;
 }
