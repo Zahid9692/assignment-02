@@ -189,5 +189,25 @@ justify-content: space-around;
   border: #FF900E solid 2px;
   border-radius: 8px;
   padding: 14px;
+}
 
+.sponsors-title{
+  text-align: center;
+}
+
+.spns-logo{
+  margin: 48px 288px;
+  display: flex;
+  justify-content: space-around;
+  filter: grayscale(100%);
+}
+
+
+/* footer */
+
+.footer{
+  background: #FFF4E7;
+  margin: 96px 288px;
+  padding: 24px;
+  text-align: center;
 }
